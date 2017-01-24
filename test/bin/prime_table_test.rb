@@ -7,7 +7,7 @@ describe "prime_table" do
 
   describe "`bin/prime_table 3`" do
     it "prints a multiplication table of the first three prime numbers" do
-      output, _ = Open3.capture2(bin)
+      output, _ = Open3.capture2(bin, "3")
       assert_equal <<PRIME_TABLE, output
 |      |    2 |    3 |    5 |
 |    2 |    4 |    6 |   10 |
