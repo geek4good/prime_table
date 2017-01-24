@@ -17,7 +17,7 @@ describe "prime_table" do
 PRIME_TABLE
     end
   end
- 
+
   describe "`bin/prime_table 5`" do
     it "prints a multiplication table of the first three prime numbers" do
       output, _ = Open3.capture2(bin, "5")
