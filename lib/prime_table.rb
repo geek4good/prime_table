@@ -1,4 +1,5 @@
 require "prime_table/version"
+require "prime_table/prime_number_generator"
 require "prime_table/multiplication_table"
 
 module PrimeTable
